@@ -1,0 +1,53 @@
+
+html{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+#button-section{
+    margin: 0 rem;
+}
+
+main{
+    margin-bottom: 1rem;
+}
+
+button{
+    padding: 0.5rem 0;
+    margin: 1em 0.5rem;
+    border-radius: 0.5rem;
+    min-width: 6rem;
+    cursor: pointer;
+    font-size: 1rem;
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+}
+
+#green-button{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+#red-button{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+#blue-button{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+#random-button{
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}

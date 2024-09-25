@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Tod Do List</title>
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="site.css">
+   </head>
+   <body>
+      <header></header>
+      <main>
+         <h1>To Do List</h1>
+         <div class="main-section">
+            <form id="taskForm" method="post">
+               <div class="input-section">
+                  <label for="taskInput">Task: </label>
+                  <input id="taskInput" type="text" name="taskInput" required>
+               </div>
+               <div class="buttons">
+                  <button type="submit">Add</button>
+                  <button id="hide" type="button">Hide Completed</button>
+                  <button id="showAll" type="button">Show All</button>
+                  <button id="deleteAll" type="button">Delete All</button>
+               </div>
+            </form>
+            <div>
+               <ul id="taskList"></ul>
+            </div>
+         </div>
+      </main>
+      <footer>Project by Franco Diaz</footer>
+      <script src="app.js"></script>
+      <script>app.execute();</script>
+   </body>
+</html>

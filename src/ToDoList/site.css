@@ -1,0 +1,63 @@
+html{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 300;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1{
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  margin-top: 1rem;
+}
+
+ul {
+  list-style-type: circle;
+  line-height: 1.5rem;
+}
+
+button{
+  padding: 0.25rem 0.25rem;
+  font-size: 0.75rem;
+  width: 7rem;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+}
+
+#taskInput{
+  width: 80%;
+  font-size: 1rem;
+}
+
+.input-section{
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.main-section{
+  border: 1px solid white;
+  padding: 1rem;
+}
+
+.completed-task {
+  text-decoration: line-through;
+}
+
+.task-section{
+  display: flex;
+  gap: 1rem;
+}
+
+.buttons{
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
