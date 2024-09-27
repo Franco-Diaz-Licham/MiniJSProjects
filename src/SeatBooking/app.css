@@ -1,0 +1,145 @@
+
+:root{
+    --max-width: 35%;
+}
+
+html{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: var(--max-width);
+    margin: auto;
+    position: relative;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#show-picker{
+    width: 60%;
+    height: 1.5rem;
+    border-radius: 5px;
+    font-size: 0.75rem;
+}
+
+#show-picker option{
+    font-size: 0.75rem;
+}
+
+.show-picker-section{
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.main-content{
+    border: 1px solid white;
+    padding: 0.5rem 0rem;
+}
+
+.legend-section{
+    margin: 2rem 0;
+    /* padding: 0 3rem; */
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.legend-section > div{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.container{
+    perspective: 1000px;
+}
+
+.stage-section{
+    width: var(--max-width);
+    height: 4rem;
+    border: 1px solid white;
+    margin: 1rem auto;
+    transform: rotateX(-45deg);
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+    background-color: white;
+}
+
+.seat-section{
+    width: var(--max-width);
+    height: 8rem;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: auto 1fr auto auto auto 1fr auto auto;
+    gap: 0.5rem 0.2rem;
+}
+
+.seat{
+    border: 1px solid white;
+    width: 0.7rem;
+    height: 0.6rem;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.selected-seat{
+    background-color: aqua;
+}
+
+.occupied-seat{
+    background-color: gray;
+}
+
+.seat-section .na-seat:hover, .seat-section .selected-seat:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.info-section{
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.info-section span{
+    color: aqua;
+}
+
+@media screen and (max-width: 600px){
+    :root{
+        --max-width: 75%;
+    }
+}
+
+@media screen and  (min-width: 601px) and (max-width: 767px){
+    :root{
+        --max-width: 65%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    :root{
+        --max-width: 55%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    :root{
+        --max-width: 45%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+    :root{
+        --max-width: 45%;
+    }
+}

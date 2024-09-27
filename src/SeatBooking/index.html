@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="app.css">
+        <link rel="icon" href="favicon.ico">
+        <title>Show Booking</title>
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <h1>Show Booking</h1>
+            <div class="main-content">
+                <div class="show-picker-section">
+                    <label for="show-picker">Pick a show: </label>
+                    <select id="show-picker">
+                        <option value="" disabled selected>Select option</option>
+                    </select>
+                </div>
+                <div class="legend-section">
+                    <div>
+                        <div class="na-seat seat"></div>
+                        <div>N/A</div>
+                    </div>
+                    <div>
+                        <div class="selected-seat seat"></div>
+                        <div>Selected</div>
+                    </div>
+                    <div>
+                        <div class="occupied-seat seat"></div>
+                        <div>Occupied</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="stage-section"></div>
+                </div>
+                <div class="seat-section">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied-seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied-seat"></div>
+                    <div class="seat occupied-seat"></div>
+                    <div class="seat occupied-seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied-seat"></div>
+                    <div class="seat occupied-seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied-seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied-seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="info-section">
+                    You have selected <span id="seats-total">&nbsp;</span>
+                    seats for a price of $ <span id="seats-price">&nbsp;</span>
+                </div>
+            </div>
+        </main>
+        <footer>Project By Franco Diaz</footer>
+        <script src="app.js"></script>
+        <script>app.execute()</script>
+    </body>
+</html>

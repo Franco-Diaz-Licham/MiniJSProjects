@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Exchange Calculator</title>
+        <link rel="stylesheet" href="app.css">
+        <link rel="icon" href="favicon.ico">
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <h1>Exchange Calculator</h1>
+            <img src="images/money.png">
+            <p>Choose the currency and the amounts to get the exchange rate</p>
+            <div id="initial-money">
+                <select id="initial-currency">
+                    <option value="" disabled selected>Select currency</option>
+                </select>
+                <div class="intial-amount">
+                    <input type="number" value="1">
+                </div>                
+            </div>
+            <div class="exchange">
+                <button>Swap</button>
+                <p>1 USD = 0.895 EUR</p>
+            </div>
+            <div id="final-money">
+                <select id="final-currency">
+                    <option value="" disabled selected>Select currency</option>
+                </select>
+                <div class="final-amount">
+                    <input type="number" value="1">
+                </div>  
+            </div>
+        </main>
+        <footer>Project By Franco Diaz</footer>
+    </body>
+</html>

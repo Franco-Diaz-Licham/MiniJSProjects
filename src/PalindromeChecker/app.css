@@ -13,6 +13,23 @@ h1, footer{
     text-align: center;
 }
 
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 500px;
+    text-align: center;
+}
+
+button{
+    padding: 0.25rem 0;
+    margin: 0.5rem 0rem;
+    border-radius: 0.25rem;
+    width: 4rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+}
+
 .main-section{
     margin: 2rem 0;
     padding: 1rem 0;
@@ -27,14 +44,4 @@ h1, footer{
     gap: 1rem;
     grid-template-columns: auto 1fr;
     justify-content: center;
-}
-
-button{
-    padding: 0.25rem 0;
-    margin: 0.5rem 0rem;
-    border-radius: 0.25rem;
-    width: 4rem;
-    font-weight: bold;
-    cursor: pointer;
-    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
 }
